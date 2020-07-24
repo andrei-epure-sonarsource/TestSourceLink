@@ -9,7 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("S", new Class1().S);
+            Assert.AreEqual("S", new Class1().Method());
         }
     }
 }
